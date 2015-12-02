@@ -33,6 +33,9 @@ style: |
         #Cover p a {
             color:#FFF;
             }
+    #Julien ul li ul {
+        line-height: 100%;
+        }
 ---
 
 # Une (brève) histoire du temps {#Cover}
@@ -83,7 +86,7 @@ Nos 24 heures sont égyptiennes
 Le calendrier grégorien, instauré le 15 octobre 1582, ne remplace pas les dates antérieures
 
 
-## Jour julien
+## Jour julien {#Julien}
 
 - Créé par Joseph Juste Scaliger, en l'honneur de Jules César Scaliger
 - Compté en nombres de jours + fraction de jour par rapport à une origine
