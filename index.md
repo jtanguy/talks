@@ -3,7 +3,9 @@
 layout: ribbon
 
 style: |
-    .slide:after {}
+    .slide:after {
+        display: none;
+    }
     #Cover h2 {
         margin:30px 0 0;
         color:#FFF;
