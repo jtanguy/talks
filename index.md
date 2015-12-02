@@ -46,20 +46,23 @@ style: |
 
 ## **tempus fugit**
 
-## Sur les rives de Babylone
+## Mesure du temps
 
-- 1 jour = 12 danna (2 heures)
-- 1 danna = 30 ush (4 minutes)
-- 1 ush = 60 nindan (4 secondes)
+- Rôle important dans l'organisation de la vie sociale
+- Observations astronomiques
+    - Soleil: Jour, Année
+    - Lune: Mois
+
 
 {:.note}
-La minute vient du latin _minuta_, partie menue de la division (de l'heure ou du degré)
+La minute vient du latin _minuta_, partie menue de la division
 
-## Calendrier babylonien
+## Sur les rives de Babylone
 
 - Calendrier lunaire, puis luni-solaire
 - 1 an = 12 mois
-- 1 mois intercalaire supplémentaire les années 3, 6, 8, 11, 14, 17 et 19 (Cycle métonique)
+- 1 mois intercalaire supplémentaire les années 3, 6, 8, 11, 14, 17 et 19
+- Subdivisions du jour: 1 jour = 12 danna, 1 danna = 30 ush, 1 ush = 60 nindan
 
 {:.note}
 Le mot seconde vient de "seconde subdivision par 60 d'une heure"
@@ -106,6 +109,9 @@ Variantes du jour julien en décalant l'origine: MJD, TJD
 - Mesure de la seconde
 - Time zones
 - UT0, UT1, TAI, UTC, Leap seconds
+
+- Bureau International de l'Heure
+- Service international de la rotation terrestre et des systèmes de référence
 
 ## Conseils
 
