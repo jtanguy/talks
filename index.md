@@ -103,6 +103,9 @@ Le calendrier grégorien, instauré le 15 octobre 1582, ne remplace pas les date
 {:.note}
 Variantes du jour julien en décalant l'origine: MJD, TJD
 
+## Que faire ?
+
+![](pictures/whooves.png)
 
 ## TODO
 
