@@ -56,6 +56,8 @@ style: |
 {:.note}
 La minute vient du latin _minuta_, partie menue de la division
 
+// La mesure du temps a longtemps été l'apanage des astronomes. Les observations étaient à l'origine sommaires.
+
 ## Sur les rives de Babylone
 
 - Calendrier lunaire, puis luni-solaire
@@ -65,6 +67,10 @@ La minute vient du latin _minuta_, partie menue de la division
 
 {:.note}
 Le mot seconde vient de "seconde subdivision par 60 d'une heure"
+
+// Les permiers calendriers étaient basés sur le cycle lunaire; ce dernier définit la notion de mois
+// A cause du décalage des cycles lunaires et solaires, il a fallu rajouter des mois intercalaires pour corriger le décalage des saisons.
+// Cycle métonique: hyperpériode des cycles lunaires et solaires
 
 
 ## Du côté du phare d'Alexandrie
@@ -77,6 +83,8 @@ Le mot seconde vient de "seconde subdivision par 60 d'une heure"
 
 {:.note}
 Nos 24 heures sont égyptiennes
+
+// La première période a être subdivisée en 12h a été la nuit
 
 ## Calendriers
 
@@ -184,6 +192,11 @@ UTC est maintenu à moins de 0.9s de UT1 via des secondes intercalaires
 
 ## Questions
 
+Contact
 - julien.tanguy@jhome.fr
-- twitter.com/jutanguy
-- github.com/jtanguy
+- https://twitter.com/jutanguy
+- https://github.com/jtanguy
+
+Slides
+- https://jtanguy.github.io/time-talk
+- https://github.com/jtanguy/time-talk
