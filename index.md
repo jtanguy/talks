@@ -69,8 +69,7 @@ La minute vient du latin _minuta_, partie menue de la division
 Le mot seconde vient de "seconde subdivision par 60 d'une heure"
 
 // Les permiers calendriers étaient basés sur le cycle lunaire; ce dernier définit la notion de mois
-// A cause du décalage des cycles lunaires et solaires, il a fallu rajouter des mois intercalaires pour corriger le décalage des saisons.
-// Cycle métonique: hyperpériode des cycles lunaires et solaires
+A cause du décalage des cycles lunaires et solaires, il a fallu rajouter des mois intercalaires pour corriger le décalage des saisons.
 
 
 ## Du côté du phare d'Alexandrie
@@ -84,7 +83,7 @@ Le mot seconde vient de "seconde subdivision par 60 d'une heure"
 {:.note}
 Nos 24 heures sont égyptiennes
 
-// La première période a être subdivisée en 12h a été la nuit
+// La première période a être subdivisée a été la nuit. Chaque décan du ciel était associé à une divinité.
 
 ## Calendriers
 
@@ -95,10 +94,11 @@ Nos 24 heures sont égyptiennes
 {:.note}
 Le calendrier grégorien, instauré le 15 octobre 1582, ne remplace pas les dates antérieures
 
+// Les calendriers ont tout d'abord été lunaires, puis luni-solaires, pour finir par être exclusivement solaires
+
 
 ## Jour julien {#Julien}
 
-- Créé par Joseph Juste Scaliger, en l'honneur de Jules César Scaliger
 - Compté en nombres de jours + fraction de jour par rapport à une origine
 - Origine du jour julien: 1 janvier -4712 à midi
     - Avant la totalité de l'histoire connue
@@ -110,6 +110,9 @@ Le calendrier grégorien, instauré le 15 octobre 1582, ne remplace pas les date
 {:.note}
 Variantes du jour julien en décalant l'origine: MJD, TJD
 
+// Le jour julien a été créé par Joseph Juste Scaliger; nommé en l'honneur de son père, Jules César Scaliger
+
+
 ## Outils de mesure de la seconde
 
 - Clepsydres
@@ -117,6 +120,8 @@ Variantes du jour julien en décalant l'origine: MJD, TJD
 - Quartz
 - Césium
 
+// Les moyens de mesure du temps se sont perfectionnés.
+Maintenant le temps est mesuré à l'aide d'un ensemble d'horloges atomiques (à cause de la relativité)
 
 ## Décalages horaires
 
@@ -127,6 +132,8 @@ Variantes du jour julien en décalant l'origine: MJD, TJD
 - 1900: La plupart des pays ont adopté le système
 - 1986: Le Népal est le dernier pays à adopter le système
 
+// L'établissement de standards sur le temps est un problème politique.
+De grandes luttes ont eu lieu pour déterminer l'origine de l'heure (Greenwich vs Paris)
 
 ## Standardisation: Cocorico !
 
