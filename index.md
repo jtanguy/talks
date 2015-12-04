@@ -121,10 +121,14 @@ Variantes du jour julien en décalant l'origine: MJD, TJD
 - 1986: Le Népal est le dernier pays à adopter le système
 
 
-##  BIH, BIPM, IERS
-{:.cover .h #cocorico}
+## Standardisation: Cocorico !
 
-![](pictures/hetalia-france.jpg)
+- Bureau International de l'heure (BIH)
+- Bureau International des Poids et Mesures (BIPM)
+- Service international de la rotation terrestre et des systèmes de référence (IERS)
+
+## ![](pictures/hetalia-france.jpg)
+{:.cover .h}
 
 
 ## Standardisation du temps
@@ -142,17 +146,30 @@ UTC est maintenu à moins de 0.9s de UT1 via des secondes intercalaires
 - Idée saugrenue de Benjamin Franklin pour économiser de l'énergie (1784)
 - Mise en place des DST au XXᵉ siècle
 
-## Que faire ?
-{:.cover .h #whooves}
+## ![](pictures/whooves.png)
+{:.cover .h}
 
-![](pictures/whooves.png)
+## ![](pictures/mlp-sheep.jpg)
+{:.cover .h}
+
+## Le temps c'est difficile
+
+- Fuseaux horaires
+- Heures d'été
+- Secondes intercalaires
+- Internationalisation
+
+## **Que faire ?**
 
 ## **ISO 8601**
 
-## TODO
+## Représentations normalisées
 
-## Conseils
+- 2015-12-08
+- 2015-07-01T00:00:60Z
+- 2015-12-08T18:00+01:00
+- 2015-12-08W49
+- P3Y6M4DT12H30M5S
+- R5/2008-03-01T13:00:00Z/P1Y2M10DT2H30M
 
-- Stockage UTC + visu localisée
-- Sérialisation: ISO 8601
-- Ne réinventez pas l'horloge
+## **Localisation & Internationalisation view layer**
