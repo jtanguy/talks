@@ -176,3 +176,8 @@ UTC est maintenu à moins de 0.9s de UT1 via des secondes intercalaires
 - R5/2008-03-01T13:00:00Z/P1Y2M10DT2H30M
 
 ## **i10n & i18n @ view layer**
+
+## Support
+
+- Joda Time
+- moment.js
