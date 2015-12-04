@@ -186,7 +186,7 @@ UTC est maintenu à moins de 0.9s de UT1 via des secondes intercalaires
 - 2015-12-08
 - 2015-07-01T00:00:60Z
 - 2015-12-08T18:00+01:00
-- 2015-12-08W49
+- 2015-W49-2
 - P3Y6M4DT12H30M5S
 - R5/2008-03-01T13:00:00Z/P1Y2M10DT2H30M
 
