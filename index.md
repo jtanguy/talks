@@ -103,18 +103,51 @@ Le calendrier grégorien, instauré le 15 octobre 1582, ne remplace pas les date
 {:.note}
 Variantes du jour julien en décalant l'origine: MJD, TJD
 
+## Outils de mesure de la seconde
+
+- Clepsydres
+- Horloges mécaniques
+- Quartz
+- Césium
+
+
+## Décalages horaires
+
+- 1847: Temps coordonné pour les chemins de fer
+- 1858: Inception des fuseaux horaires par Quirico Filopanti
+- 1876: Proposition des fuseaux centrés sur Greenwich par Sandford Fleming
+- 1884: Standard GMT
+- 1900: La plupart des pays ont adopté le système
+- 1986: Le Népal est le dernier pays à adopter le système
+
+
+##  BIH, BIPM, IERS {#cocorico}
+{:.cover: #cocorico}
+
+![](pictures/hetalia-france.jpg)
+
+## Standardisation du temps
+
+- UT0: Temps astronomique à chaque observatoire
+- UT1: UT0 incluant une correction de latitude
+- TAI: Seconde SI mesurée par horloge**s** astronomiques
+- UTC: Temps universel basé sur TAI
+
+{:.note}
+UTC est maintenu à moins de 0.9s de UT1 via des secondes intercalaires
+
+## DST
+
+- Idée saugrenue de Benjamin Franklin pour économiser de l'énergie (1784)
+- Mise en place des DST au XXᵉ siècle
+
 ## Que faire ?
 
 ![](pictures/whooves.png)
 
+## **ISO 8601**
+
 ## TODO
-
-- Mesure de la seconde
-- Time zones
-- UT0, UT1, TAI, UTC, Leap seconds
-
-- Bureau International de l'Heure
-- Service international de la rotation terrestre et des systèmes de référence
 
 ## Conseils
 
