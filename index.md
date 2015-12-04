@@ -41,8 +41,7 @@ style: |
 # Une (brève) histoire du temps {#Cover}
 
 *Historique des standards du temps, par [Julien Tanguy](http://twitter.com/jutanguy)*
-
-<!-- cover image from https://en.wikipedia.org/wiki/Black_hole  -->
+<!-- source: https://en.wikipedia.org/wiki/Black_hole  -->
 
 ## **tempus fugit**
 
@@ -129,6 +128,8 @@ Variantes du jour julien en décalant l'origine: MJD, TJD
 
 ## ![](pictures/hetalia-france.jpg)
 {:.cover .h}
+<!-- source: http://hetalia.wikia.com  -->
+
 
 
 ## Standardisation du temps
@@ -148,9 +149,11 @@ UTC est maintenu à moins de 0.9s de UT1 via des secondes intercalaires
 
 ## ![](pictures/whooves.png)
 {:.cover .h}
+<!-- credit: kooner-cz.deviantart.com -->
 
 ## ![](pictures/mlp-sheep.jpg)
 {:.cover .h}
+<!-- credit: willisninety-six.deviantart.com -->
 
 ## Le temps c'est difficile
 
