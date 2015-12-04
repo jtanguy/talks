@@ -181,3 +181,9 @@ UTC est maintenu à moins de 0.9s de UT1 via des secondes intercalaires
 
 - Joda Time
 - moment.js
+
+## Questions
+
+- julien.tanguy@jhome.fr
+- twitter.com/jutanguy
+- github.com/jtanguy
