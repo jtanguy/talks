@@ -121,10 +121,11 @@ Variantes du jour julien en décalant l'origine: MJD, TJD
 - 1986: Le Népal est le dernier pays à adopter le système
 
 
-##  BIH, BIPM, IERS {#cocorico}
+##  BIH, BIPM, IERS
 {:.cover .h #cocorico}
 
 ![](pictures/hetalia-france.jpg)
+
 
 ## Standardisation du temps
 
@@ -142,9 +143,9 @@ UTC est maintenu à moins de 0.9s de UT1 via des secondes intercalaires
 - Mise en place des DST au XXᵉ siècle
 
 ## Que faire ?
+{:.cover .h #whooves}
 
 ![](pictures/whooves.png)
-{:.cover .h}
 
 ## **ISO 8601**
 
