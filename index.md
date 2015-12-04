@@ -122,7 +122,7 @@ Variantes du jour julien en décalant l'origine: MJD, TJD
 
 
 ##  BIH, BIPM, IERS {#cocorico}
-{:.cover: #cocorico}
+{:.cover .h #cocorico}
 
 ![](pictures/hetalia-france.jpg)
 
@@ -144,6 +144,7 @@ UTC est maintenu à moins de 0.9s de UT1 via des secondes intercalaires
 ## Que faire ?
 
 ![](pictures/whooves.png)
+{:.cover .h}
 
 ## **ISO 8601**
 
