@@ -172,6 +172,19 @@ L'acronyme UTC est un compromis entre TUC (fr) et CUT (en)
 
 ## **Que faire ?**
 
+## **Documentation**
+
+## **Time is Not a Number**
+
+// Différence instant/durée
+Le nombre de jours de demain moins avant-hier
+
+## **Instant = Date + Heure + TZ**
+
+//Ne stockez pas d'instant sans time zone
+
+## **i10n & i18n @ view layer**
+
 ## **ISO 8601**
 
 ## Représentations normalisées de dates
