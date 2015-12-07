@@ -121,7 +121,8 @@ Variantes du jour julien en décalant l'origine: MJD, TJD
 - Césium
 
 // Les moyens de mesure du temps se sont perfectionnés.
-Maintenant le temps est mesuré à l'aide d'un ensemble d'horloges atomiques (à cause de la relativité)
+Maintenant le temps est mesuré à l'aide d'un ensemble d'horloges atomiques (à
+cause de la relativité)
 
 ## Décalages horaires
 
@@ -140,28 +141,43 @@ De grandes luttes ont eu lieu pour déterminer l'origine de l'heure (Greenwich v
 {:.cover .h}
 <!-- source: http://hetalia.wikia.com  -->
 
+// Petite note chauvine: les standards du temps ont été maintenus par le BIH,
+l'IERS et le BIPM
+
 ## Standardisation du temps
 
 - UT0: Temps astronomique à chaque observatoire
 - UT1: UT0 incluant une correction de latitude
 - TAI: Seconde SI mesurée par horloge**s** astronomiques
-- UTC: Temps universel basé sur TAI, UTC est maintenu à moins de 0.9s de UT1 via des secondes intercalaires
+- UTC: Temps universel basé sur TAI
+- UTC est maintenu à moins de 0.9s de UT1 via des secondes intercalaires
 
 {:.note}
 L'acronyme UTC est un compromis entre TUC (fr) et CUT (en)
+
+// UTC est tiré entre deux mondes: l'astronomique et l'atomique
 
 ## DST
 
 - Idée de Benjamin Franklin pour économiser de l'énergie (1784)
 - Mise en place des DST au XXᵉ siècle
+- Décision politique
+
+// Il faut savoir que le DST est une décision politique: récemment la turquie a
+retardé de deux semaines le passage à l'heure d'hiver pour ses élections; que
+les bureaux de vote soient ouverts en journée
 
 ## ![](pictures/whooves.png)
 {:.cover .h}
 <!-- credit: kooner-cz.deviantart.com -->
 
+// Globalement le temps c'est un joyeux bordel
+
 ## ![](pictures/mlp-sheep.jpg)
 {:.cover .h}
 <!-- credit: willisninety-six.deviantart.com -->
+
+// Revenons à nos moutons
 
 ## Le temps c'est difficile
 
@@ -174,6 +190,8 @@ L'acronyme UTC est un compromis entre TUC (fr) et CUT (en)
 
 ## **Documentation**
 
+// Documentez vos stockages de données !
+
 ## **Time is Not a Number**
 
 // Différence instant/durée
@@ -185,7 +203,12 @@ Le nombre de jours de demain moins avant-hier
 
 ## **i10n & i18n @ view layer**
 
+// Uniformisez ! Passez tous les instants en UTC/GMT
+Traduisez/passez en heure locale au dernier moment
+
 ## **ISO 8601**
+
+// Il existe des normes bien faites là dessus
 
 ## Représentations normalisées de dates
 
