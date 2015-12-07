@@ -135,31 +135,24 @@ Maintenant le temps est mesuré à l'aide d'un ensemble d'horloges atomiques (à
 // L'établissement de standards sur le temps est un problème politique.
 De grandes luttes ont eu lieu pour déterminer l'origine de l'heure (Greenwich vs Paris)
 
-## Standardisation: Cocorico !
-
-- Bureau International de l'heure (BIH)
-- Bureau International des Poids et Mesures (BIPM)
-- Service international de la rotation terrestre et des systèmes de référence (IERS)
 
 ## ![](pictures/hetalia-france.jpg)
 {:.cover .h}
 <!-- source: http://hetalia.wikia.com  -->
-
-
 
 ## Standardisation du temps
 
 - UT0: Temps astronomique à chaque observatoire
 - UT1: UT0 incluant une correction de latitude
 - TAI: Seconde SI mesurée par horloge**s** astronomiques
-- UTC: Temps universel basé sur TAI
+- UTC: Temps universel basé sur TAI, UTC est maintenu à moins de 0.9s de UT1 via des secondes intercalaires
 
 {:.note}
-UTC est maintenu à moins de 0.9s de UT1 via des secondes intercalaires
+L'acronyme UTC est un compromis entre TUC (fr) et CUT (en)
 
 ## DST
 
-- Idée saugrenue de Benjamin Franklin pour économiser de l'énergie (1784)
+- Idée de Benjamin Franklin pour économiser de l'énergie (1784)
 - Mise en place des DST au XXᵉ siècle
 
 ## ![](pictures/whooves.png)
@@ -181,29 +174,51 @@ UTC est maintenu à moins de 0.9s de UT1 via des secondes intercalaires
 
 ## **ISO 8601**
 
-## Représentations normalisées
+## Représentations normalisées de dates
 
 - 2015-12-08
 - 2015-07-01T00:00:60Z
 - 2015-12-08T18:00+01:00
 - 2015-W49-2
+
+## Représentations normalisées de durées
+
+- P3W
+- P3M
+- PT3M
 - P3Y6M4DT12H30M5S
+- 2004-12-02/P3D
+
+
+## Représentations normalisées de récurrence
+
+- R/PT01
+- R5/PT01:30
 - R5/2008-03-01T13:00:00Z/P1Y2M10DT2H30M
 
 ## **i10n & i18n @ view layer**
 
-## Support
+## Liens
 
-- Joda Time
-- moment.js
+- <https://fr.wikipedia.org/wiki/ISO_8601>
+- <http://www.cl.cam.ac.uk/~mgk25/iso-time.html>
+- <http://www.iso.org/iso/fr/home/standards/iso8601.htm>
+
+### Support libs
+
+- [Joda Time](http://www.joda.org/joda-time/)
+- [moment.js](http://momentjs.com)
+- [frozen-moment](http://www.npmjs.com/package/frozen-moment)
 
 ## Questions
 
-Contact
+### Contact
+
 - julien.tanguy@jhome.fr
 - https://twitter.com/jutanguy
 - https://github.com/jtanguy
 
-Slides
+### Slides
+
 - https://jtanguy.github.io/time-talk
 - https://github.com/jtanguy/time-talk
