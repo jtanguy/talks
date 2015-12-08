@@ -201,7 +201,7 @@ Le nombre de jours de demain moins avant-hier
 
 //Ne stockez pas d'instant sans time zone
 
-## **i10n & i18n @ view layer**
+## **l10n & i18n @ view layer**
 
 // Uniformisez ! Passez tous les instants en UTC/GMT
 Traduisez/passez en heure locale au dernier moment
@@ -232,7 +232,7 @@ Traduisez/passez en heure locale au dernier moment
 - R5/PT01:30
 - R5/2008-03-01T13:00:00Z/P1Y2M10DT2H30M
 
-## **i10n & i18n @ view layer**
+## **l10n & i18n @ view layer**
 
 ## Liens
 
