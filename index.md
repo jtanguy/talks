@@ -43,6 +43,10 @@ style: |
     .slide pre code {
         line-height: normal;
         }
+    .slide>div {
+        padding: 105px 100px 0;
+        width: 90%;
+        }
 ---
 
 # Nix, a declarative package manager {#Cover}
@@ -306,5 +310,4 @@ $ nix-collect-garbage
 
 - [Knowing your system, pt.1 -- @Keruspe](http://www.imagination-land.org/posts/2012-11-22-knowing-your-system-part-basics-on-unixlike-systems.html)
 - [Nix pills series -- @Lethalman](http://lethalman.blogspot.it/search/label/nixpills)
-
 - <http://jtanguy.github.io/nix-talk>
