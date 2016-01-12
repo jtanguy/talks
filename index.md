@@ -116,7 +116,7 @@ tree /usr/
     └── env -> /nix/store/zzj4664wj266mnd8a1l21ggw21g4x2ya-coreutils-8.24/bin/env
 ~~~
 
-## `/nix/store`
+## /nix/store
 
 ~~~
 $ ls /nix/store/ | perl -n -e 'print if (rand() < .001)'
@@ -304,3 +304,5 @@ $ nix-collect-garbage
 
 - [Knowing your system, pt.1 -- @Keruspe](http://www.imagination-land.org/posts/2012-11-22-knowing-your-system-part-basics-on-unixlike-systems.html)
 - [Nix pills series -- @Lethalman](http://lethalman.blogspot.it/search/label/nixpills)
+
+- <http://jtanguy.github.io/nix-talk>
