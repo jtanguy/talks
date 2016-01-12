@@ -200,7 +200,7 @@ $ nix-store -q --requisites `which hello`
 /nix/store/2d8ywxqjnzw7vnd3wlwi10mz27amxq73-hello-2.10
 ~~~
 
-## Reverse-dependencies 
+## Reverse-dependencies
 
 ~~~
 $ nix-store -q --referrers `which hello`
