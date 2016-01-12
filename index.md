@@ -35,9 +35,11 @@ style: |
         width:0.72em;
         height:0.72em;
         }
-    .slide pre code {
+    .slide pre {
         font-size: .9em;
         line-height: normal;
+        white-space: pre-wrap;
+        word-wrap: break-word;
         }
 ---
 
@@ -92,16 +94,14 @@ $ which bash
 
 ~~~
 $ ls -l /home/jtanguy/.nix-profile/bin/bash
-lrwxrwxrwx 1 root nixbld 64 Jan 1 1970 /home/jtanguy/.nix-profile/bin/bash
--> /nix/store/vk7prf4l272piwb95vjgms98bb4kmy5n-systemTools/bin/bash
+lrwxrwxrwx 1 root nixbld 64 Jan 1 1970 /home/jtanguy/.nix-profile/bin/bash -> /nix/store/vk7prf4l272piwb95vjgms98bb4kmy5n-systemTools/bin/bash
 ~~~
 
 ## Examples (3/4)
 
 ~~~
 $ ls -l /nix/store/vk7prf4l272piwb95vjgms98bb4kmy5n-systemTools/bin/bash
-lrwxrwxrwx 5 root nixbld 65 Jan  1  1970 /nix/store/vk7prf4l272piwb95vjgms98bb4kmy5n-systemTools/bin/bash
--> /nix/store/f88s4fcjfk1spdc7rmm9lylxmh0a72dy-bash-4.3-p39/bin/bash
+lrwxrwxrwx 5 root nixbld 65 Jan  1  1970 /nix/store/vk7prf4l272piwb95vjgms98bb4kmy5n-systemTools/bin/bash -> /nix/store/f88s4fcjfk1spdc7rmm9lylxmh0a72dy-bash-4.3-p39/bin/bash
 ~~~
 
 ## Examples (4/4)
