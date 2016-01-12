@@ -43,7 +43,7 @@ style: |
     .slide pre code {
         line-height: normal;
         }
-    .slide>div {
+    .large>div {
         padding: 105px 100px 0;
         width: 90%;
         }
@@ -96,21 +96,23 @@ $ which bash
 /home/jtanguy/.nix-profile/bin/bash
 ~~~
 
-## Examples (2/4)
+## Examples (2/4) {.large}
 
 ~~~
 $ ls -l /home/jtanguy/.nix-profile/bin/bash
-lrwxrwxrwx 1 root nixbld 64 Jan 1 1970 /home/jtanguy/.nix-profile/bin/bash -> /nix/store/vk7prf4l272piwb95vjgms98bb4kmy5n-systemTools/bin/bash
+lrwxrwxrwx 1 root nixbld 64 Jan 1 1970 /home/jtanguy/.nix-profile/bin/bash
+-> /nix/store/vk7prf4l272piwb95vjgms98bb4kmy5n-systemTools/bin/bash
 ~~~
 
-## Examples (3/4)
+## Examples (3/4) {.large}
 
 ~~~
 $ ls -l /nix/store/vk7prf4l272piwb95vjgms98bb4kmy5n-systemTools/bin/bash
-lrwxrwxrwx 5 root nixbld 65 Jan  1  1970 /nix/store/vk7prf4l272piwb95vjgms98bb4kmy5n-systemTools/bin/bash -> /nix/store/f88s4fcjfk1spdc7rmm9lylxmh0a72dy-bash-4.3-p39/bin/bash
+lrwxrwxrwx 5 root nixbld 65 Jan  1  1970 /nix/store/vk7prf4l272piwb95vjgms98bb4kmy5n-systemTools/bin/bash
+-> /nix/store/f88s4fcjfk1spdc7rmm9lylxmh0a72dy-bash-4.3-p39/bin/bash
 ~~~
 
-## Examples (4/4)
+## Examples (4/4) {.large}
 
 ~~~
 $ tree /bin
@@ -216,7 +218,7 @@ $ nix-store -q --referrers `which hello`
 
 - All essential variables (called build inputs) count into the hash:
   - build toolchain – compiler / linker / etc.
-  - other build time dependencies – kernel headers, libc, libraries, make, automake, coreutils
+  - other build time dependencies – libc, libraries, make, coreutils, etc
   - runtime dependencies
 
 ## Anatomy of a derivation
@@ -228,14 +230,14 @@ $ ls -d1 /nix/store/*hello*
 /nix/store/pxqaxi1a6zlvxmaf5ly8384pnp0xvlln-hello-2.10.drv
 ~~~
 
-## .nix, .drv, $$out
+## .nix, .drv, $out
 
 - .nix files are like .c files
 - .drv files are intermediate files like .o files.
   The .drv describes how to build a derivation, it's the bare minimum information.
 - out paths are then the product of the build
 
-## hello/default.nix
+## hello/default.nix {.large}
 
 ~~~
 { stdenv, fetchurl }:
@@ -260,7 +262,7 @@ stdenv.mkDerivation rec {
 }
 ~~~
 
-## Driver files
+## Driver files {.large}
 
 ~~~
 $ pp-aterm -i /nix/store/pxqaxi1a6zlvxmaf5ly8384pnp0xvlln-hello-2.10.drv
