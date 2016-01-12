@@ -43,7 +43,7 @@ style: |
     .slide pre code {
         line-height: normal;
         }
-    .large>div {
+    #large1>div, #large2>div, #large3>div, #large4>div, #large5>div {
         padding: 105px 100px 0;
         width: 90%;
         }
@@ -96,7 +96,7 @@ $ which bash
 /home/jtanguy/.nix-profile/bin/bash
 ~~~
 
-## Examples (2/4) {.large}
+## Examples (2/4) {#large1}
 
 ~~~
 $ ls -l /home/jtanguy/.nix-profile/bin/bash
@@ -104,7 +104,7 @@ lrwxrwxrwx 1 root nixbld 64 Jan 1 1970 /home/jtanguy/.nix-profile/bin/bash
 -> /nix/store/vk7prf4l272piwb95vjgms98bb4kmy5n-systemTools/bin/bash
 ~~~
 
-## Examples (3/4) {.large}
+## Examples (3/4) {#large2}
 
 ~~~
 $ ls -l /nix/store/vk7prf4l272piwb95vjgms98bb4kmy5n-systemTools/bin/bash
@@ -112,7 +112,7 @@ lrwxrwxrwx 5 root nixbld 65 Jan  1  1970 /nix/store/vk7prf4l272piwb95vjgms98bb4k
 -> /nix/store/f88s4fcjfk1spdc7rmm9lylxmh0a72dy-bash-4.3-p39/bin/bash
 ~~~
 
-## Examples (4/4) {.large}
+## Examples (4/4) {#large3}
 
 ~~~
 $ tree /bin
@@ -237,7 +237,7 @@ $ ls -d1 /nix/store/*hello*
   The .drv describes how to build a derivation, it's the bare minimum information.
 - out paths are then the product of the build
 
-## hello/default.nix {.large}
+## hello/default.nix {#large4}
 
 ~~~
 { stdenv, fetchurl }:
@@ -262,7 +262,7 @@ stdenv.mkDerivation rec {
 }
 ~~~
 
-## Driver files {.large}
+## Driver files {#large5}
 
 ~~~
 $ pp-aterm -i /nix/store/pxqaxi1a6zlvxmaf5ly8384pnp0xvlln-hello-2.10.drv
