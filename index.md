@@ -36,7 +36,7 @@ style: |
         height:0.72em;
         }
     .slide pre {
-        font-size: .9em;
+        font-size: .8em;
         line-height: normal;
         white-space: pre-wrap;
         word-wrap: break-word;
@@ -110,7 +110,6 @@ lrwxrwxrwx 5 root nixbld 65 Jan  1  1970 /nix/store/vk7prf4l272piwb95vjgms98bb4k
 $ tree /bin
 /bin
 └── sh -> /nix/store/r31zljmxj1vk3syp51rrh1zgq0a00lkk-bash-4.3-p42/bin/sh
-
 tree /usr/
 /usr/
 └── bin
@@ -234,17 +233,13 @@ $ ls -d1 /nix/store/*hello*
 
 ~~~
 { stdenv, fetchurl }:
-
 stdenv.mkDerivation rec {
   name = "hello-2.10";
-
   src = fetchurl {
     url = "mirror://gnu/hello/${name}.tar.gz";
     sha256 = "0ssi1wpaf7plaswqqjwigppsg5fyh99vdlb9kzl7c9lng89ndq1i";
   };
-
   doCheck = false;
-
   meta = {
     description = "A program that produces a familiar, friendly greeting";
     longDescription = ''
@@ -288,50 +283,7 @@ Derive(
 )
 ~~~
 
-## Driver files
-
-~~~
-$ pp-aterm -i /nix/store/1q95rws0xlpkdrv2qhp1rk604p6071g9-hello-2.10.tar.gz.drv
-Derive(
-  [("out", "/nix/store/3x7dwzq014bblazs7kq20p9hyzz0qh8g-hello-2.10.tar.gz", "sha256", "31e066137a962676e89f69d1b65382de95a7ef7d914b8cb956f41ea72e0f516b")]
-, [ ("/nix/store/fafh3cg1rwmrkzwx8ii85rnsvlc6sy8d-curl-7.45.0.drv", ["out"])
-  , ("/nix/store/fbb8inkvx11j7zcydd8ml14730dlhnaz-bash-4.3-p42.drv", ["out"])
-  , ("/nix/store/g8ksll5rwiv36d68kdg24mvqfimb9wr7-mirrors-list.drv", ["out"])
-  , ("/nix/store/s3z22h3cc16kd1mb12wxdrnzv877hnb6-stdenv.drv", ["out"])
-  ]
-, ["/nix/store/8jrib84jrl9sk6089z0dvma4xkz93pz7-builder.sh"]
-, "x86_64-linux"
-, "/nix/store/7d2g3bvmbi5ps3vlkl54h7d7yasc4ynv-bash-4.3-p42/bin/bash"
-, ["-e", "/nix/store/8jrib84jrl9sk6089z0dvma4xkz93pz7-builder.sh"]
-, [ ("buildInputs", "")
-  , ("builder", "/nix/store/7d2g3bvmbi5ps3vlkl54h7d7yasc4ynv-bash-4.3-p42/bin/bash")
-  , ("curlOpts", "")
-  , ("downloadToTemp", "")
-  , ("impureEnvVars", "http_proxy https_proxy ftp_proxy all_proxy no_proxy NIX_CURL_FLAGS NIX_HASHED_MIRRORS NIX_CONNECT_TIMEOUT NIX_MIRRORS_apache NIX_MIRRORS_bioc NIX_MIRRORS_bitlbee NIX_MIRRORS_cpan NIX_MIRRORS_debian NIX_MIRRORS_fedora NIX_MIRRORS_gcc NIX_MIRRORS_gentoo NIX_MIRRORS_gnome NIX_MIRRORS_gnu NIX_MIRRORS_gnupg NIX_MIRRORS_hackage NIX_MIRRORS_hashedMirrors NIX_MIRRORS_imagemagick NIX_MIRRORS_kde NIX_MIRRORS_kernel NIX_MIRRORS_metalab NIX_MIRRORS_mysql NIX_MIRRORS_oldsuse NIX_MIRRORS_openbsd NIX_MIRRORS_opensuse NIX_MIRRORS_postgresql NIX_MIRRORS_roy NIX_MIRRORS_sagemath NIX_MIRRORS_samba NIX_MIRRORS_savannah NIX_MIRRORS_sourceforge NIX_MIRRORS_sourceforgejp NIX_MIRRORS_ubuntu NIX_MIRRORS_xfce NIX_MIRRORS_xorg")
-  , ("mirrorsFile", "/nix/store/h75zl4814dg3aa454xxy9i7ak0bk7b6l-mirrors-list")
-  , ("name", "hello-2.10.tar.gz")
-  , ("nativeBuildInputs", "/nix/store/dixbkkl6phy7xh57qkh8g7vfcih3nfd5-curl-7.45.0")
-  , ("out", "/nix/store/3x7dwzq014bblazs7kq20p9hyzz0qh8g-hello-2.10.tar.gz")
-  , ("outputHash", "0ssi1wpaf7plaswqqjwigppsg5fyh99vdlb9kzl7c9lng89ndq1i")
-  , ("outputHashAlgo", "sha256")
-  , ("outputHashMode", "flat")
-  , ("postFetch", "")
-  , ("preferHashedMirrors", "1")
-  , ("preferLocalBuild", "1")
-  , ("propagatedBuildInputs", "")
-  , ("propagatedNativeBuildInputs", "")
-  , ("showURLs", "")
-  , ("stdenv", "/nix/store/7d5l5syxhqx26cd1m8hrj7ld9pmdw5xa-stdenv")
-  , ("system", "x86_64-linux")
-  , ("urls", "mirror://gnu/hello/hello-2.10.tar.gz")
-  ]
-)
-~~~
-
-
-
 ## Profiles
-{:.cover #Profiles}
 
 ![](pictures/user-environments.png)
 <!-- Image from http://nixos.org/nix/manual/#sec-profiles -->
