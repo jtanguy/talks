@@ -35,6 +35,10 @@ style: |
         width:0.72em;
         height:0.72em;
         }
+    .slide pre code {
+        font-size: .9em;
+        line-height: normal;
+        }
 ---
 
 # Nix, a declarative package manager {#Cover}
@@ -337,7 +341,7 @@ Derive(
 
 ## Example: test docker
 
-~~~{.bash}
+~~~bash
 $ nix-shell -p docker
 # Hack hack hack
 $ exit
