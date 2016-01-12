@@ -36,10 +36,12 @@ style: |
         height:0.72em;
         }
     .slide pre {
-        font-size: .8em;
-        line-height: normal;
+        font-size: .7em;
         white-space: pre-wrap;
         word-wrap: break-word;
+        }
+    .slide pre code {
+        line-height: normal;
         }
 ---
 
