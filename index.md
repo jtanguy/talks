@@ -1,5 +1,6 @@
 ---
 layout: ribbon
+fork_url: https://github.com/jtanguy/nix-talk
 style: |
     .slide:after {
         display: none;
