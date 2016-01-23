@@ -1,4 +1,6 @@
-# The MIT License
+# License for Jekyller and Shower
+
+## The MIT License
 
 Copyright © 2012–2013 Roman Komarov, http://kizu.ru/en/
 
@@ -10,7 +12,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 ---
 
-# Лицензия MIT
+## Лицензия MIT
 
 Copyright © 2012–2013 Роман Комаров, http://kizu.ru/en/
 
