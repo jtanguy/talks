@@ -16,6 +16,7 @@ author:
         name: Sounderbox
         url:  http://sounderbox.com
 
+base_url: https://jtanguy.github.io/talks
 fork_url: https://github.com/shower/shower
 progress: true
 line_numbers: true
