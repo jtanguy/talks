@@ -12,6 +12,8 @@
     <header class="caption">
         <h1>{{ title }}</h1>
         {% if subtitle %}{{ subtitle }}{% endif %}
+
+        {% if page.abstract %}{{page.abstract}}{% endif %}
     </header>
 
     {{ showerify_output }}
