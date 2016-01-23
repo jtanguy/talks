@@ -1,6 +1,11 @@
 ---
 layout: ribbon
 fork_url: https://github.com/jtanguy/nix-talk
+abstract: |
+  Despite a lot of tools (apt, pacman, etc.) and meta-tools (chef, puppet, ansible, etc.),
+  package management is still a hard  problem.
+  Based on unconventional principles, nix is a package manager like no other.
+  In this talk, we'll explore some of its internals and why it makes package management easier.
 style: |
     .slide:after {
         display: none;
