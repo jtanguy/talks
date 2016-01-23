@@ -17,6 +17,7 @@
 
     {% capture subtitle %}{% if page.subtitle %}{{ page.subtitle }}{% else %}{% if author_url != '' %}[{{ author_name }}]({{ author_url }}){% else %}{{ author_name }}{% endif %}{% if company_name != '' %}, {% if company_url != '' %}[{{ company_name }}]({{ company_url }}){% else %}{{ company_name }}{% endif %}{% endif %}{% endif %}{% endcapture %}{% capture subtitle %}{{ subtitle | markdownify }}{% endcapture %}
 
+    {% capture abstract %}{{ page.abstract | markdownify }}{% endcapture %}
     {% capture fork_url %}{% if page.fork_url %}{{ page.fork_url }}{% else %}{{ site.fork_url }}{% endif %}{% endcapture %}
 
 ## Set the progress var

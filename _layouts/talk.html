@@ -9,11 +9,11 @@
 {{ page.style }}</style>{%endif%}
 </head>
 <body class="{{ body_class }}">
-    <header class="caption">
+    <header class="caption" style="text-align:justify;padding-right:100px;">
         <h1>{{ title }}</h1>
         {% if subtitle %}{{ subtitle }}{% endif %}
 
-        {% if page.abstract %}{{page.abstract}}{% endif %}
+        {% if abstract %}{{abstract}}{% endif %}
     </header>
 
     {{ showerify_output }}
